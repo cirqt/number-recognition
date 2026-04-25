@@ -5,6 +5,15 @@
 
 Mark each step `[x]` when done. Steps are intentionally small — complete one before moving to the next.
 
+## How to use this roadmap
+
+- **Read the book section first.** Each phase header cites the chapter. Read it *before* writing any code — the equations and intuition will make the implementation obvious rather than mysterious.
+- **One checkpoint at a time.** Each numbered step (e.g. `6.3`) is tiny on purpose. Do it, run it, verify the output matches the expected value shown, then mark it `[x]` and move on.
+- **Print and verify shapes.** After every new function, print array shapes. Shape mismatches are silent in NumPy — they won't crash but will produce wrong results. Catching them early saves hours.
+- **Use SKILLS.md as your dictionary.** Every bolded term links to a precise definition and the Nielsen variable name (`w`, `b`, `z`, `a`, `δ`, `η`, `λ`). Match these names in your code exactly.
+- **Don't skip to later phases.** Later phases build directly on earlier ones. Phase 10 (backprop) requires Phase 7 (feedforward) to be correct.
+- **See README.md** for the key math equations (BP1–BP4, cost functions, SGD update rule) laid out before you start coding.
+
 ---
 
 ## Phase 1 — Environment Setup
